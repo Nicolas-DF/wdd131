@@ -15,8 +15,6 @@ body {
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
-  max-width: 900px;
-  margin: 0 auto;
   padding: 1rem;
 }
 
@@ -27,10 +25,11 @@ header {
 
 #course-title{
     display: block;
-    margin-bottom: 1rem;
     background-color: var(--primary-color);
     color: var(--title-color);
     font-size: 1.5rem;
+    height: 3rem;
+    font-weight: normal;
 }
 
 nav ul {
@@ -39,9 +38,96 @@ nav ul {
     justify-content: space-evenly;
     gap: 1.5rem;
     background-color: #333;
+    height: 2rem;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
+}
+
+main h1 {
+    text-align: center;
+    margin: 1rem 0;
+    color: #000;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #777;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card.about {
+    flex: 2 1 60%;
+}
+
+.card.resources {
+    flex: 1 1 35%;
+}
+
+.card.resources li {
+    margin-left: 2rem;
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    color: var(--title-color);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 1rem;
+    margin-top: 130px;
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+.profile-image {
+  float: right;
+  width: 150px;
+  height: auto;
+  margin: 0 auto 1rem auto;
+  border: 1px solid #2c3e50;
+}
+
+.card img.flag {
+  float: left;
+  max-width: 150px;
+  margin: 0 1rem 1rem 0;
+  border: 2px solid #2c3e50;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: var(--primary-color);
+  color: var(--title-color);
+  font-size: 1rem;
+  font-weight: normal;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
 }
