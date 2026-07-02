@@ -133,7 +133,8 @@ footer {
 }
 
 #lastModified {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: yellow;
   margin-top: 0.5rem;
+  font-style: italic;
 }
