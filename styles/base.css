@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #1d4d72;
+    --title-color: #fff;
+    --primary-font: 'Abel', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#course-title{
+    display: block;
+    margin-bottom: 1rem;
+    background-color: var(--primary-color);
+    color: var(--title-color);
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    background-color: #333;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
