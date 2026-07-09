@@ -1,8 +1,22 @@
 @media (min-width: 600px) {
+
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+
+
   nav {
     justify-content: flex-start;
   }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background: none;
+    padding: 0;
+  }
+  #menu-button{
+    display: none;
+  }
 }
+
