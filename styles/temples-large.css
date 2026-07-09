@@ -8,13 +8,15 @@
         width: auto;
     }
 
-    nav ul {
+    nav ul{
         display: flex;
         flex-direction: row;
         gap: 2rem;
+        background: none;
+        padding: 0;
+        list-style: none;
     }
-
-    #menu-button {
+    #menu-button{
         display: none;
     }
 
