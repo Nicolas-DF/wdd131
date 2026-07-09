@@ -29,3 +29,22 @@ nav a {
 nav a:hover {
     background-color: #ddd;
 }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    background-color: #fff;
+    text-align: center;
+}
