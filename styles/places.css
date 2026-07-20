@@ -67,6 +67,17 @@ h1 {
     background: var(--green);
 }
 
+.weather h2::after {
+    content: "";
+    display: inline-block;
+    margin-left: .5rem;
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/weather.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .data h2{
     display: inline-block;
     margin-top: 0;
@@ -107,5 +118,23 @@ footer {
 
     header h1 {
         max-width: 100%;
+    }
+
+    .hero img {
+        border-bottom: 10px solid var(--blue);
+    }
+
+    .data h2, .weather h2 {
+        display: block;
+        text-align: center;
+        margin: 0 0 1rem 0;
+        padding: 0;
+        background: none;
+        color: #000;
+    }
+
+    .weather h2::after {
+        content: "🌤️";
+        margin-left: .5rem;
     }
 }
