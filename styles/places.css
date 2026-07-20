@@ -38,7 +38,7 @@ h1 {
 .data {
     position: absolute;
     top: 2rem;
-    left: 2rem;
+    right: 2rem;
     background: #fff;
     padding: 1rem;
 }
@@ -46,8 +46,8 @@ h1 {
 .weather {
     position: absolute;
     bottom: 2rem;
-    right: 2rem;
-    background: white;
+    left: 2rem;
+    background: #fff;
     padding: 1rem;
 }
 
@@ -58,9 +58,20 @@ h1 {
     box-shadow: 0 0 10px rgba(0,0,0,.3);
 }
 
-.data h2, .weather h2 {
+ .weather h2 {
+    display: inline-block;
     margin-top: 0;
-    padding: .5rem;
+    padding: .75rem 10rem .75rem 1rem;
+    margin: -1rem 0 1rem -2rem;
+    color: #fff;
+    background: var(--green);
+}
+
+.data h2{
+    display: inline-block;
+    margin-top: 0;
+    padding: .75rem 14rem .75rem 1rem;
+    margin: -1rem 0 1rem -2rem;
     color: #fff;
     background: var(--green);
 }
@@ -69,6 +80,7 @@ h1 {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .data li,
