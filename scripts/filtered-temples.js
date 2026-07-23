@@ -131,3 +131,12 @@ function displayTemples(list) {
 }
 
 displayTemples(temples);
+
+
+function filterOldTemples(){
+  const oldTemples = temples.filter(t => {
+    const year = parseInt(t.dedicated.split(",")[0]);
+    return year < 1900;
+  })
+  displayTemples(oldTemples);
+}
