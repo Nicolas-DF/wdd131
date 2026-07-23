@@ -165,4 +165,4 @@ document.querySelector('a[href="#old"]').addEventListener("click", filterOldTemp
 document.querySelector('a[href="#new"]').addEventListener("click", filterNewTemples);
 document.querySelector('a[href="#large"]').addEventListener("click", filterLargeTemples);
 document.querySelector('a[href="#small"]').addEventListener("click", filterSmallTemples);
-document.querySelector('a[href="index.html"]').addEventListener("click", () => displayTemples(temples));
+document.querySelector('a[href="#home"]').addEventListener("click", () => displayTemples(temples));
