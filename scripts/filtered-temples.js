@@ -76,5 +76,28 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-  // Add more temple objects here...
-];
+  {
+    templeName: "Durban South Africa",
+    location: "Durban, South Africa",
+    dedicated: "2020, February, 16",
+    area: 19860,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/durban-south-africa-temple/durban-south-africa-temple-72674-main.jpg"
+  },
+  {
+    templeName: "Harare Zimbabwe Temple",
+    location: "Harare, Zimbabwe",
+    dedicated: "2026, March, 1",
+    area: 17247,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/harare-zimbabwe-temple/harare-zimbabwe-temple-67717-main.jpg"
+  },
+  {
+    templeName: "Campinas Brazil Temple",
+    location: "Campinas, Brazil",
+    dedicated: "2002, May, 17",
+    area: 48100,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
+  }
+];  
