@@ -103,7 +103,7 @@ const temples = [
 ];
 
 
-const container = document.getElementById("temples")
+const container = document.getElementById("gallery")
 
 function displayTemples(list) {
   container.innerHTML = "";
