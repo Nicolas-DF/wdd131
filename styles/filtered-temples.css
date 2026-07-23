@@ -66,7 +66,6 @@ nav ul.open{
     display: flex;
 }
 
-
 main {
     margin: 0 auto;
     padding: 1rem;
@@ -104,7 +103,10 @@ h1{
   text-align: center;
 }
 
-
+#gallery p {
+    margin: 0;
+    padding: 3px;
+}
 
 footer {
   text-align: center;
