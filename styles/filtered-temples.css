@@ -82,10 +82,12 @@ h1{
     gap: 1rem;
 }
 
-img {
-    max-width: 250px;
-    height: auto;
+#temples img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
 }
+
 
 figure {
     border: 1px solid #ccc;
