@@ -102,7 +102,7 @@ const temples = [
   }
 ];
 
-
+/* Inner HTML for Temples Gallery */
 const container = document.getElementById("gallery")
 
 function displayTemples(list) {
@@ -133,6 +133,7 @@ function displayTemples(list) {
 displayTemples(temples);
 
 
+/* Filter Functions */
 function filterOldTemples(){
   const oldTemples = temples.filter(t => {
     const year = parseInt(t.dedicated.split(",")[0]);
@@ -158,3 +159,10 @@ function filterSmallTemples() {
   const smallTemples = temples.filter(t => t.area < 10000);
   displayTemples(smallTemples);
 }
+
+/* Event Listener - Filters */
+document.querySelector('a[href="#old"]').addEventListener("click", filterOldTemples);
+document.querySelector('a[href="#new"]').addEventListener("click", filterNewTemples);
+document.querySelector('a[href="#large"]').addEventListener("click", filterLargeTemples);
+document.querySelector('a[href="#small"]').addEventListener("click", filterSmallTemples);
+document.querySelector('a[href="index.html"]').addEventListener("click", () => displayTemples(temples));
