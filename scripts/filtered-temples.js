@@ -100,4 +100,34 @@ const temples = [
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
   }
-];  
+];
+
+
+const container = document.getElementById("temples")
+
+function displayTemples(list) {
+  container.innerHTML = "";
+  list.forEach(temple => {
+    const figure = document.createElement("figure");
+
+    const caption = document.createElement("figcaption");
+    caption.innerHTML = `
+    <h3>${temple.templeName}</h3>
+    <p>Location: ${temple.location}</p>
+    <p>Dedicated: ${temple.dedicated}</p>
+    <p>Size: ${temple.area} sq ft</p>
+    `;
+
+    const img = document.createElement("img");
+    img.src = temple.imageUrl;
+    img.alt = temple.templeName;
+    img.loading = "lazy";
+
+    figure.appendChild(caption);
+    figure.appendChild(img);
+
+    container.appendChild(figure);
+  });
+}
+
+displayTemples(temples);
