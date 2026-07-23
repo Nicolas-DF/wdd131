@@ -140,3 +140,21 @@ function filterOldTemples(){
   })
   displayTemples(oldTemples);
 }
+
+function filterNewTemples() {
+  const newTemples = temples.filter(t => {
+    const year = parseInt(t.dedicated.split(",")[0]);
+    return year > 2000;
+  })
+  displayTemples(newTemples);
+}
+
+function filterLargeTemples() {
+  const largeTemples = temples.filter(t => t.area > 90000);
+  displayTemples(largeTemples);
+}
+
+function filterSmallTemples() {
+  const smallTemples = temples.filter(t => t.area < 10000);
+  displayTemples(smallTemples);
+}
