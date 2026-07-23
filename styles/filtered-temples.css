@@ -82,7 +82,7 @@ h1{
     gap: 1rem;
 }
 
-#temples figure {
+#gallery figure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,16 +93,17 @@ h1{
   background-color: #f9f9f9;
 }
 
-#temples img {
+#gallery img {
   width: 400px;
   height: 250px;
   object-fit: cover;
 }
 
-#temples figcaption {
+#gallery figcaption {
   margin-bottom: 0.5rem;
   text-align: center;
 }
+
 
 
 footer {
