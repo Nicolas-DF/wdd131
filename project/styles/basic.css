@@ -20,3 +20,12 @@ h1, h2 {
   font-family: 'Playfair Display', serif;
   color: #8B4513;
 }
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
