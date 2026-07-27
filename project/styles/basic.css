@@ -29,3 +29,15 @@ section {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
+
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #8B4513;
+  border-radius: 6px;
+}
