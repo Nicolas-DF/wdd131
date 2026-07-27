@@ -16,7 +16,12 @@ header {
   padding: 1rem;
 }
 
-h1, h2 {
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #FFFDD0;
+}
+
+h2 {
   font-family: 'Playfair Display', serif;
   color: #8B4513;
 }
