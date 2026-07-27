@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFDD0; /* cream */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
