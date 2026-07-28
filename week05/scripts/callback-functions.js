@@ -7,6 +7,8 @@ function displayResult(result) {
 }
 
 
+
+
 function fetchData(callback) {
   // using setTimeout to simulate fetching data from a server
   setTimeout(() => {
