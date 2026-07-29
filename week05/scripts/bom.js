@@ -2,7 +2,9 @@
 
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('ul');
+const list = document.querySelector('#list');
+
+let chaptersArray = getChapterList() || [];
 
 button.addEventListener('click', function() {
     if (input.value.trim() !== '') {
