@@ -25,7 +25,7 @@ function displayList(item){
     let deleteButton = document.createElement('button');
     li.textContent= item;
     deleteButton.textContent = '❌';
-    deleteButton.callsList.add('delete');
+    deleteButton.classList.add('delete');
     li.append(deleteButton);
     list.append(li);
 
@@ -40,7 +40,7 @@ function setChapterList() {
     localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
 }
 
-function getChaptersList() {
+function getChapterList() {
     return JSON.parse(localStorage.getItem('myFavBOMList'));
 }
 
