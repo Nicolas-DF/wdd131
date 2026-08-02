@@ -23,9 +23,7 @@
             <label for="productName">Product Name:</label>
             <select id="productName" name="productName" required>
                 <option value="">Choose a Product ...</option>
-                <option value="product1">Product 1</option>
-                <option value="product2">Product 2</option>
-                <option value="product3">Product 3</option>
+                <span id="productOptions"></span>
             </select>
 
             <label for="rating">Overall Rating:</label>
@@ -40,7 +38,7 @@
             <label for="installingDate">Date of Installation:</label>
             <input type="date" id="installingDate" name="installingDate" required>
 
-            <label for="usefulFeatures">Which features did you find useful in the product?<br><italic>(Check all that apply)</italic></label>
+            <label for="usefulFeatures">Which features did you find useful in the product?<italic>(Check all that apply)</italic></label>
             <input type="checkbox" id="durability" name="usefulFeatures">Durability
             <input type="checkbox" id="easeOfUse" name="usefulFeatures">Ease of Use
             <input type="checkbox" id="performance" name="usefulFeatures">Performance
