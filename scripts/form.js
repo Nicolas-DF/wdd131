@@ -33,3 +33,10 @@ const products = [
     averagerating: 5.0
   }
 ];
+
+products.forEach(element => {
+    const option = document.createElement("option");
+    option.value = element.id;
+    option.textContent = element.name;
+    document.getElementById("productOptions").appendChild(option);
+});
