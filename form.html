@@ -19,8 +19,41 @@
     </header>
 
     <main>
-        <form>
-            
+        <form method="get" action="review.html">
+            <label for="productName">Product Name:</label>
+            <select id="productName" name="productName" required>
+                <option value="">Choose a Product ...</option>
+                <option value="product1">Product 1</option>
+                <option value="product2">Product 2</option>
+                <option value="product3">Product 3</option>
+            </select>
+
+            <label for="rating">Overall Rating:</label>
+            <div class="stars">
+                <input type="radio" id="rating1" name="rating">&star;
+                <input type="radio" id="rating2" name="rating"> &star;&star;
+                <input type="radio" id="rating3" name="rating"> &star;&star;&star;
+                <input type="radio" id="rating4" name="rating"> &star;&star;&star;&star;
+                <input type="radio" id="rating5" name="rating"> &star;&star;&star;&star;&star;
+            </div>
+
+            <label for="installingDate">Date of Installation:</label>
+            <input type="date" id="installingDate" name="installingDate" required>
+
+            <label for="usefulFeatures">Which features did you find useful in the product?<br><italic>(Check all that apply)</italic></label>
+            <input type="checkbox" id="durability" name="usefulFeatures">Durability
+            <input type="checkbox" id="easeOfUse" name="usefulFeatures">Ease of Use
+            <input type="checkbox" id="performance" name="usefulFeatures">Performance
+            <input type="checkbox" id="design" name="usefulFeatures">Design
+
+            <label for="written">Written Review (Optional)</label>
+            <textarea id="written" name="written" rows="4" cols="50"></textarea>
+
+            <label for="name">Your Name (optional)</label>
+            <input type="text" id="name" name="name">
+
+            <input type="submit" value="Post Review">
+
         </form>
     </main>
 
