@@ -40,3 +40,8 @@ products.forEach(element => {
     option.textContent = element.name;
     document.getElementById("productOptions").appendChild(option);
 });
+
+
+let counter = Number(localStorage.getItem("numReviews")) || 0;
+counter++;
+localStorage.setItem("numReviews", counter);
