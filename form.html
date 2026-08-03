@@ -21,17 +21,16 @@
     <main>
         <form method="get" action="review.html">
             <label for="productOptions">Product Name:</label>
-            <select id="productOptions" name="productOptions" required>
-                <option value="" disabled selected>Choose a Product ...</option>
-            </select>
+
+            <select id="productOptions" name="productOptions" required placeholder="Choose a Product ..."></select>
 
             <label for="rating">Overall Rating:</label>
             <div class="stars">
-                <label>&star;<input type="radio" name="rating" value="1"></label>
-                <label>&star;&star;<input type="radio" name="rating" value="2"></label>
-                <label>&star;&star;&star;<input type="radio" name="rating" value="3"></label>
-                <label>&star;&star;&star;&star;<input type="radio" name="rating" value="4"></label>
-                <label>&star;&star;&star;&star;&star;<input type="radio" name="rating" value="5"></label>
+                <label>&star;<input type="radio" name="rating" value="1" id="rating1"></label>
+                <label>&star;&star;<input type="radio" name="rating" value="2" id="rating2"></label>
+                <label>&star;&star;&star;<input type="radio" name="rating" value="3" id="rating3"></label>
+                <label>&star;&star;&star;&star;<input type="radio" name="rating" value="4" id="rating4"></label>
+                <label>&star;&star;&star;&star;&star;<input type="radio" name="rating" value="5" id="rating5"></label>
             </div>
 
             <label for="installingDate">Date of Installation:</label>
