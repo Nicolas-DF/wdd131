@@ -45,3 +45,13 @@ textarea {
 textarea {
     resize: vertical;
 }
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    margin-right: .5rem;
+}
+
+label:has(input[type="checkbox"]) {
+    font-weight: normal;
+}
