@@ -18,6 +18,11 @@ h1{
     height: 60px;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
 main {
     max-width: 600px;
     margin: 20px auto;
