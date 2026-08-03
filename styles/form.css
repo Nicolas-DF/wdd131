@@ -60,6 +60,23 @@ label:has(input[type="checkbox"]) {
     font-weight: normal;
 }
 
+.stars {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.stars label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: normal;
+}
+
+.stars input[type="radio"] {
+    margin-top: .4rem;
+}
+
 input[type="submit"] {
     margin-top: 2rem;
     background: #4b2067;
