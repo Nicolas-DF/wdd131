@@ -107,3 +107,29 @@ footer {
     background-color: #12213d;
     color: #fff;
 }
+
+
+@media (max-width: 600px) {
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .stars {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        height: auto;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 1rem;
+    }
+}
