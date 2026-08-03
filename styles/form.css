@@ -74,3 +74,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #61327f;
 }
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #12213d;
+    color: #fff;
+}
