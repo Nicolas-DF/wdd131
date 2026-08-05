@@ -1,0 +1,10 @@
+:root {
+    --brown: #8B4513;
+    --cream: #FFFDD0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
