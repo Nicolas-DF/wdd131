@@ -14,3 +14,10 @@ body {
     text-align: center;
     padding: 1rem;
 }
+
+header, footer {
+  background-color: var(--brown);
+  color: var(--cream);
+  text-align: center;
+  padding: 1em;
+}
