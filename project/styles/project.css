@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* General Mobile Styles */
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -36,6 +37,7 @@ h1 {
   border: none;
   color: var(--cream);
   cursor: pointer;
+  display: block;
 }
 
 .menu {
@@ -48,6 +50,7 @@ h1 {
 
 .menu.active {
   display: flex;
+  flex-direction: column;
 }
 
 nav a {
@@ -55,7 +58,6 @@ nav a {
   padding: 0.7em;
   color: var(--cream);
   text-decoration: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 nav a:hover {
@@ -98,3 +100,22 @@ ul {
   padding: 0;
   margin-bottom: 20px;
 }
+
+
+/* Desktop Style */
+@media (min-width: 768px) {
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+
+/* Form Styles */
