@@ -1,6 +1,7 @@
 :root {
     --brown: #8B4513;
     --cream: #FFFDD0;
+    --darkbrown: #67340f;
 }
 
 * {
@@ -47,16 +48,32 @@ main {
   padding: 20px;
   background-image: url('../images/background.webp');
   background-size: cover;
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.7);
   background-blend-mode: overlay;
   margin: 7px auto;
-  color: var(--brown);
+  color: var(--darkbrown);
 }
 
-
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+}
 
 article {
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
   margin-bottom: 20px;
 }
