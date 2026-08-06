@@ -30,6 +30,26 @@ h1 {
     margin-bottom: 0.6em;
 }
 
+.menu-toggle {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--cream);
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  background-color: var(--brown);
+  border-radius: 7px;
+  margin-top: 1rem;
+}
+
+.menu.active {
+  display: flex;
+}
+
 nav a {
   margin: 20px;
   padding: 0.7em;
