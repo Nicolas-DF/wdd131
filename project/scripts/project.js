@@ -24,3 +24,11 @@ document.getElementById("subscriptionForm").addEventListener("submit", function(
         document.getElementById("formMessage").textContent = "Please, enter at least your full name and email address.";
     }
 });
+
+// Menu Toggle
+const toggleButton = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggleButton.addEventListener("click",() => {
+    menu.classList.toggle("active");
+})
